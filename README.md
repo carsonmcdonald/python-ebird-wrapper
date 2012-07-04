@@ -1,4 +1,4 @@
-python-ebird-wrapper
+Python EBird Wrapper
 ====================
 
 This is a simple wrapper for the [eBird API version 1.1](https://confluence.cornell.edu/display/CLOISAPI/eBird+API+1.1)
