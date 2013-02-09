@@ -11,7 +11,7 @@ class EBird(object):
     if response.status_code != 200:
       raise EBirdException.EBirdException(response.status_code, response.text)
     else:
-      return response.json
+      return response.json()
 
   def recent_observations_geo(self, lat, lng, options={}):
     params = {'lat': lat, 'lng': lng, 'fmt': 'json'}
